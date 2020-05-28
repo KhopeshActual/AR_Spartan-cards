@@ -94354,7 +94354,7 @@ Animator:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1881296202400538}
   m_Enabled: 1
-  m_Avatar: {fileID: 0}
+  m_Avatar: {fileID: 9000000, guid: cb86f91e0181e3b41a3e67b5ac26c396, type: 3}
   m_Controller: {fileID: 9100000, guid: 8d5ec37eab2b2474888d68b881bf862d, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
@@ -104910,7 +104910,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 194e329f7a8353d419a63de94a3e5234, type: 3}
+  m_audioClip: {fileID: 8300000, guid: c6518abab8a2f314aad03f57e7038bcf, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 0.5
   m_Pitch: 1
