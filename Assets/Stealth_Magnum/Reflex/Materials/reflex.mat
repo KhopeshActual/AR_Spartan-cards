@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Reflex
+  m_Name: reflex
   m_Shader: {fileID: 4800000, guid: cd40f555598a0344fbc7acfbb1c5b2a8, type: 3}
   m_ShaderKeywords: _INVERTNORMAL_ON
   m_LightmapFlags: 4
