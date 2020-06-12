@@ -4,8 +4,9 @@
 Material:
   serializedVersion: 6
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_Name: FrumiousHelmet
   m_Shader: {fileID: 4800000, guid: 6e95cf6e80514744a8a00eab3f590a83, type: 3}
   m_ShaderKeywords: 
@@ -93,14 +94,14 @@ Material:
     - _DstBlend: 0
     - _GlossMapScale: 1
     - _Glossiness: 0
-    - _GlossinessA: 0.331
-    - _GlossinessASmoother: 0.112
-    - _GlossinessB: 0
-    - _GlossinessBSmoother: 0
+    - _GlossinessA: 0.264
+    - _GlossinessASmoother: 0.107
+    - _GlossinessB: 0.237
+    - _GlossinessBSmoother: 0.181
     - _GlossyReflections: 1
     - _Metallic: 0
-    - _MetalnessA: 0.732
-    - _MetalnessB: 0
+    - _MetalnessA: 0.598
+    - _MetalnessB: 0.603
     - _Mode: 0
     - _OcclusionStrength: 1
     - _Parallax: 0.02

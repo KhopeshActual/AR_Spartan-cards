@@ -4,8 +4,9 @@
 Material:
   serializedVersion: 6
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_Name: FrumoiusArms+Cloak
   m_Shader: {fileID: 4800000, guid: 6e95cf6e80514744a8a00eab3f590a83, type: 3}
   m_ShaderKeywords: 
@@ -109,14 +110,14 @@ Material:
     - _DstBlend: 0
     - _GlossMapScale: 1
     - _Glossiness: 0
-    - _GlossinessA: 0.727
-    - _GlossinessASmoother: 0.637
-    - _GlossinessB: 0.574
-    - _GlossinessBSmoother: 0.48
+    - _GlossinessA: 0.648
+    - _GlossinessASmoother: 0.609
+    - _GlossinessB: 0.088
+    - _GlossinessBSmoother: 0.079
     - _GlossyReflections: 1
     - _Metallic: 0
-    - _MetalnessA: 0.555
-    - _MetalnessB: 0.53
+    - _MetalnessA: 0.754
+    - _MetalnessB: 0.254
     - _Mode: 0
     - _OcclusionStrength: 1
     - _Parallax: 0.02
