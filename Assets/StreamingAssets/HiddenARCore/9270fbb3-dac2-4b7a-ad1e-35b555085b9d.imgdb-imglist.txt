@@ -1,2 +1,0 @@
-f0340be5710e49ffbc7045f1315b9202|Assets/Scenes/ImageTracking/Images/H5G_REQ_AnubisHelmet.png|0.208564
-aae7522819734dc0b7a253d1566ee402|Assets/Scenes/ImageTracking/Images/QRCode.jpg|0.05
