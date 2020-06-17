@@ -18,4 +18,9 @@ public class change_active_character : MonoBehaviour
         Guardian.SetActive(!isSpartan);
 
     }
+
+    public void playAnimation(string trigger)
+    {
+        Spartan.GetComponent<Animator>().SetTrigger(trigger);
+    }
 }
