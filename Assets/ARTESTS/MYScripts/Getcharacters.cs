@@ -19,11 +19,11 @@ public class Getcharacters : MonoBehaviour
 
         }
 
-        foreach (string Anim in GuardianAnimations)
+       /* foreach (string Anim in GuardianAnimations)
         {
             animations.options.Add(new TMP_Dropdown.OptionData(Anim));
 
-        }
+        }*/
     }
 
 
