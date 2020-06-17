@@ -6,10 +6,20 @@ using TMPro;
 public class Getcharacters : MonoBehaviour
 {
 
+    public string[] SpartanAnimations;
+    public string[] GuardianAnimations;
+    public TMP_Dropdown animations;
+
 
     private void Start()
     {
         foreach(string Anim in SpartanAnimations)
+        {
+            animations.options.Add(new TMP_Dropdown.OptionData(Anim));
+
+        }
+
+        foreach (string Anim in GuardianAnimations)
         {
             animations.options.Add(new TMP_Dropdown.OptionData(Anim));
 
@@ -21,9 +31,6 @@ public class Getcharacters : MonoBehaviour
     {
         FindObjectOfType<change_active_character>().Swap();
     }
-
-    public string[] SpartanAnimations;
-    public TMP_Dropdown animations;
 
 
     public void Picker(int i)

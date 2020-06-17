@@ -22,5 +22,6 @@ public class change_active_character : MonoBehaviour
     public void playAnimation(string trigger)
     {
         Spartan.GetComponent<Animator>().SetTrigger(trigger);
+        Guardian.GetComponent<Animator>().SetTrigger(trigger);
     }
 }
