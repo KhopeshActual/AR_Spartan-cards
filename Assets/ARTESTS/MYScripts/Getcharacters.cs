@@ -14,6 +14,10 @@ public class Getcharacters : MonoBehaviour
     {
         SetAnimDropdown(true);
     }
+    public void Audiotoggle()
+    {
+        FindObjectOfType<change_active_character>().Toggleaudio();
+    }
 
     public void swap()
     {

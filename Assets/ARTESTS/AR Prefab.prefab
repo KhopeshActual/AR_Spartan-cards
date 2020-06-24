@@ -46,6 +46,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Spartan: {fileID: 7179747459876475311}
   Guardian: {fileID: 5768219103081992514}
+  HaloAudio: {fileID: 6278025633981890679}
+  DestinyAudio: {fileID: 5247701186577446404}
 --- !u!1001 &1446240167
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -143,6 +145,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5006512736250262717}
     m_Modifications:
+    - target: {fileID: 5014201617668482595, guid: b51cb79d13f61d54196e4160dc2d6812,
+        type: 3}
+      propertyPath: m_Name
+      value: HaloAudio
+      objectReference: {fileID: 0}
     - target: {fileID: 8306236925727902107, guid: b51cb79d13f61d54196e4160dc2d6812,
         type: 3}
       propertyPath: m_Name
@@ -208,6 +215,12 @@ PrefabInstance:
 --- !u!1 &7179747459876475311 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8306236925727902107, guid: b51cb79d13f61d54196e4160dc2d6812,
+    type: 3}
+  m_PrefabInstance: {fileID: 1217722595048020020}
+  m_PrefabAsset: {fileID: 0}
+--- !u!82 &6278025633981890679 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 5171890708822644803, guid: b51cb79d13f61d54196e4160dc2d6812,
     type: 3}
   m_PrefabInstance: {fileID: 1217722595048020020}
   m_PrefabAsset: {fileID: 0}
@@ -280,11 +293,22 @@ PrefabInstance:
       propertyPath: BypassReverbZones
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 8285813305406093586, guid: 8b739f080ce160f4abfa8c659c4685a5,
+        type: 3}
+      propertyPath: m_Name
+      value: DestinyAudio
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8b739f080ce160f4abfa8c659c4685a5, type: 3}
 --- !u!1 &5768219103081992514 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1237689518772176, guid: 8b739f080ce160f4abfa8c659c4685a5,
+    type: 3}
+  m_PrefabInstance: {fileID: 5767054050453937810}
+  m_PrefabAsset: {fileID: 0}
+--- !u!82 &5247701186577446404 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 1791066467501926550, guid: 8b739f080ce160f4abfa8c659c4685a5,
     type: 3}
   m_PrefabInstance: {fileID: 5767054050453937810}
   m_PrefabAsset: {fileID: 0}
