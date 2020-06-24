@@ -7,29 +7,18 @@ public class Getcharacters : MonoBehaviour
 {
 
     public string[] SpartanAnimations;
-  //  public string[] GuardianAnimations;
+    public string[] GuardianAnimations;
     public TMP_Dropdown animations;
 
-
-    private void Start()
+    public void Start()
     {
-        foreach(string Anim in SpartanAnimations)
-        {
-            animations.options.Add(new TMP_Dropdown.OptionData(Anim));
-
-        }
-
-       /* foreach (string Anim in GuardianAnimations)
-        {
-            animations.options.Add(new TMP_Dropdown.OptionData(Anim));
-
-        }*/
+        SetAnimDropdown(true);
     }
-
 
     public void swap()
     {
-        FindObjectOfType<change_active_character>().Swap();
+        bool isSpartan = FindObjectOfType<change_active_character>().Swap();
+        SetAnimDropdown(isSpartan);
     }
 
 
@@ -39,6 +28,27 @@ public class Getcharacters : MonoBehaviour
 
     }
 
+    private void SetAnimDropdown(bool isSpartan)
+    {
+        animations.options.Clear();
 
+
+        if (isSpartan == true)
+        {
+            foreach (string Anim in SpartanAnimations)
+            {
+                animations.options.Add(new TMP_Dropdown.OptionData(Anim));
+
+            }
+        }
+        else
+        {
+            foreach (string Anim in GuardianAnimations)
+            {
+                animations.options.Add(new TMP_Dropdown.OptionData(Anim));
+
+            }
+        }
+    }
 
 }

@@ -9,7 +9,7 @@ public class change_active_character : MonoBehaviour
 
     bool isSpartan = true;
 
-    public void Swap()
+    public bool Swap()
     {
         isSpartan = !isSpartan;
 
@@ -17,11 +17,12 @@ public class change_active_character : MonoBehaviour
 
         Guardian.SetActive(!isSpartan);
 
+        return isSpartan;
     }
 
     public void playAnimation(string trigger)
     {
         Spartan.GetComponent<Animator>().SetTrigger(trigger);
-        //Guardian.GetComponent<Animator>().SetTrigger(trigger);
+        Guardian.GetComponent<Animator>().SetTrigger(trigger);
     }
 }
