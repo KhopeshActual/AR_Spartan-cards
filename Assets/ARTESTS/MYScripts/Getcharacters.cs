@@ -7,7 +7,7 @@ public class Getcharacters : MonoBehaviour
 {
 
     public string[] SpartanAnimations;
-    public string[] GuardianAnimations;
+  //  public string[] GuardianAnimations;
     public TMP_Dropdown animations;
 
 

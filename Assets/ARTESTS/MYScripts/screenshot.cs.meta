@@ -1,11 +1,9 @@
 fileFormatVersion: 2
-guid: ddbc5a585136f4e438329afa74955c4e
+guid: 62d3b11887e761447b6e455b4cfd82a1
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences:
-  - Spartan: {instanceID: 0}
-  - Guardian: {instanceID: 0}
+  defaultReferences: []
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
