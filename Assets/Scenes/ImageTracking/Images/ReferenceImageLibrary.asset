@@ -35,3 +35,13 @@ MonoBehaviour:
     m_SpecifySize: 1
     m_Name: QRCode
     m_Texture: {fileID: 2800000, guid: a6fd8503774c0402aa403884f5b77f39, type: 3}
+  - m_SerializedGuid:
+      m_GuidLow: 5071289136575216735
+      m_GuidHigh: 8851382901054781091
+    m_SerializedTextureGuid:
+      m_GuidLow: 694878633718570655
+      m_GuidHigh: 15742206938843948395
+    m_Size: {x: 0.05, y: 0.056564245}
+    m_SpecifySize: 1
+    m_Name: Bevr logo2
+    m_Texture: {fileID: 0}
